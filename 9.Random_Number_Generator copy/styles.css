@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+}
+
+.myh1 {
+    text-align: center;
+}
+
+.angka {
+    font-size: 100px;
+}
+
+#buttonAcak {
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    transition: ease-in-out 0.3s;
+    background-color: chocolate;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+#buttonAcak:hover {
+    background-color: coral;
+}
