@@ -1,14 +1,10 @@
-// Type Conversion = change datatype of a value to another 
-//                   (strings, number, boolean)
+let angkaAcak = document.getElementById("angkaAcak");
+let buttonAcak = document.getElementById("buttonAcak");
 
-let x;
-let y; 
-let z; 
+let min = 0;
+let max = 100;
 
-x = Number(x);
-y = String(y);
-z = Boolean(z);
-
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+buttonAcak.onclick = function() {
+    randomNum = Math.floor(Math.random(min) * max);
+    angkaAcak.textContent = `${randomNum}`;
+}
