@@ -8,7 +8,7 @@ switch(true) {
         letterGrade = "A";
         break;
     
-    case testScore >= 80:
+    case testScore >= 80: 
         letterGrade = "B";
         break;
 
@@ -25,4 +25,4 @@ switch(true) {
         break;
 }
 
-console.log(letterGrade);
+console.log(letterGrade); 
